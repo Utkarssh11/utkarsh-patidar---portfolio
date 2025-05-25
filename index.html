@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkarsh Patidar - Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    animation: {
+                        'fade-in-up': 'fadeInUp 0.5s ease-out forwards',
+                        'subtle-bob': 'subtleBob 3s ease-in-out infinite',
+                        'pulse-slow': 'pulseSlow 5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        },
+                        subtleBob: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-5px)' },
+                        },
+                        pulseSlow: {
+                            '0%, 100%': { opacity: '.7' }, /* Adjusted opacity for better visibility */
+                            '50%': { opacity: '.4' },
+                        }
+                    },
+                    colors: {
+                        primary: {
+                            light: '#60a5fa', // blue-400
+                            DEFAULT: '#3b82f6', // blue-500
+                            dark: '#2563eb'  // blue-600
+                        },
+                        secondary: {
+                            light: '#34d399', // emerald-400
+                            DEFAULT: '#10b981', // emerald-500
+                            dark: '#059669'  // emerald-600
+                        },
+                        // Light theme
+                        lightBg: '#f8fafc', // slate-50
+                        lightText: '#0f172a', // slate-900
+                        lightCard: '#ffffff',
+                        lightAccent: '#e0f2fe', // sky-100 (for subtle backgrounds)
+                        // Dark theme
+                        darkBg: '#0f172a', // slate-900
+                        darkText: '#f1f5f9', // slate-100
+                        darkCard: '#1e293b', // slate-800
+                        darkAccent: '#1e293b', // slate-800 (for subtle backgrounds)
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* For Intersection Observer animations */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        /* Smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Base body styling applied via App.tsx using Tailwind */
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background-color: #e2e8f0; /* Tailwind slate-200 */
+        }
+        .dark ::-webkit-scrollbar-track {
+            background-color: #334155; /* Tailwind slate-700 */
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: #3b82f6; /* Tailwind blue-500 */
+            border-radius: 10px;
+        }
+        .dark ::-webkit-scrollbar-thumb {
+            background-color: #10b981; /* Tailwind emerald-500 */
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #2563eb; /* Tailwind blue-600 */
+        }
+        .dark ::-webkit-scrollbar-thumb:hover {
+            background-color: #059669; /* Tailwind emerald-600 */
+        }
+        .parallax-bg {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/"
+  }
+}
+</script>
+</head>
+<body class="bg-lightBg text-lightText dark:bg-darkBg dark:text-darkText transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
+</body>
+</html>
+<link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>
