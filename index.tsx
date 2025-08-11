@@ -44,32 +44,32 @@ const skillsData = [
 
 
 const experienceData = [
-    {
-        type: 'Work',
-        title: 'Junior Software Developer',
-        company: 'Vanspecto',
-        location: 'Remote (Pune, India)',
-        duration: 'June 2024 – Present',
-        responsibilities: [
-            'Developed responsive front-end interfaces using React.js, HTML, CSS, and Bootstrap.',
-            'Integrated RESTful APIs into front-end components, enabling real-time display of inspection summaries and improving user interaction speed.',
-            'Improved UI consistency and cross-device compatibility by refactoring layout components and applying reusable design patterns.',
-            'Participated in debugging and front-end optimization, reducing component load time and enhancing user experience.',
-        ],
-        icon: <BriefcaseIcon />
-    },
+     // {
+    //     type: 'Work',
+    //     title: 'Junior Software Developer',
+    //     company: 'Vanspecto',
+    //     location: 'Remote (Pune, India)',
+    //     duration: 'June 2024 – Present',
+    //     responsibilities: [
+    //         'Developed responsive front-end interfaces using React.js, HTML, CSS, and Bootstrap.',
+    //         'Integrated RESTful APIs into front-end components, enabling real-time display of inspection summaries and improving user interaction speed.',
+    //         'Improved UI consistency and cross-device compatibility by refactoring layout components and applying reusable design patterns.',
+    //         'Participated in debugging and front-end optimization, reducing component load time and enhancing user experience.',
+    //     ],
+    //     icon: <BriefcaseIcon />
+    // },
     {
         type: 'Training',
         title: 'Full-Stack Developer Trainee',
         company: 'JSpiders Training Institute',
         location: 'Pune, India',
-        duration: 'Dec 2023 – May 2024',
+        duration: 'June 2023 – Present',
         responsibilities: [
-            'Completed intensive full-stack development training with a focus on Java, Spring Boot, Hibernate, JDBC, and React.js.',
-            'Designed and developed scalable full-stack applications with React.js, Spring Boot, and PostgreSQL.',
-            'Created and integrated RESTful APIs for user management, data exchange, and secure authentication.',
-            'Implemented complex backend logic using JDBC and optimized SQL performance.',
-            'Built dynamic and responsive front-end components, enhancing overall user experience.',
+     'Assisted in developing full-stack applications using Java, Spring Boot, Hibernate, JDBC, and React.js.',
+    'Contributed to building scalable web applications with React.js for the frontend and Spring Boot for the backend.',
+    'Developed and integrated RESTful APIs for user management, data exchange, and secure authentication.',
+    'Worked on backend logic using JDBC, optimizing SQL queries for better performance.',
+    'Collaborated in creating dynamic and responsive front-end components to improve the user experience.',
         ],
         icon: <GraduationCapIcon />
     }
@@ -77,6 +77,18 @@ const experienceData = [
 
 
 const projectsData = [
+
+
+
+    {
+    title: 'E-Medico - Medicine Ordering Web Application',
+    description: 'A responsive web application for ordering medications online, featuring user authentication, search functionality, and a cart management system.',
+    tech: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
+    imageUrl: 'https://images.unsplash.com/photo-1571943956953-49012f707279?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fG1lZGljYWx8ZW58MHx8fHww&ixlib=rb-1.2.1&q=80&w=1080', // Healthcare-related UI image
+    liveLink: 'https://e-medico-dqj7.vercel.app/',  // Add the live demo link if available
+    repoLink: 'https://github.com/Utkarssh11/E-Medico', // GitHub repository link
+   },
+
     {
         title: 'URL Shortly Website',
         description: 'The project aims to provide a URL shortening service, allowing users to convert long URLs into shorter ones.',
@@ -112,12 +124,13 @@ const projectsData = [
         repoLink: 'https://github.com/Utkarssh11/sleekUI-library',
     },
     {
-        title: 'Personalized Health Management Platform',
-        description: 'A health management platform for patients, doctors, and caregivers to manage health data and receive medication, lifestyle, and improvement notifications.',
-        tech: ['Java 11', 'Spring Boot', , 'PostgreSQL', 'React.js'],
-        imageUrl: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60', // Sleek, modern UI image
-        liveLink: '#',
-        repoLink: '#',
+         title: 'Employee Management System',
+    description: 'A web application for managing employee data, including adding, updating, and deleting employee records. Includes features like search, filtering, and role-based authentication.',
+    tech: ['Java', 'Spring Boot', 'MySQL', 'React.js'],
+    imageUrl: 'https://images.unsplash.com/photo-1556740749-887f6717d7e4?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDh8fG9mZmljZXxlbnwwfDB8fHww&ixlib=rb-1.2.1&q=80&w=1080', // Business-focused UI image
+    liveLink: '#',  // Add the live demo link if available
+    repoLink: 'https://github.com/Utkarssh11/Employee-Management-System', // GitHub repository link
+}
     },
 ];
 
