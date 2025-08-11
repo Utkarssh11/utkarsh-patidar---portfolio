@@ -77,62 +77,56 @@ const experienceData = [
 
 
 const projectsData = [
-
-
-
-    {
+  {
     title: 'E-Medico - Medicine Ordering Web Application',
     description: 'A responsive web application for ordering medications online, featuring user authentication, search functionality, and a cart management system.',
     tech: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
-    imageUrl: 'https://images.unsplash.com/photo-1571943956953-49012f707279?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fG1lZGljYWx8ZW58MHx8fHww&ixlib=rb-1.2.1&q=80&w=1080', // Healthcare-related UI image
-    liveLink: 'https://e-medico-dqj7.vercel.app/',  // Add the live demo link if available
-    repoLink: 'https://github.com/Utkarssh11/E-Medico', // GitHub repository link
-   },
-
-    {
-        title: 'URL Shortly Website',
-        description: 'The project aims to provide a URL shortening service, allowing users to convert long URLs into shorter ones.',
-        tech: ['React', 'Node.js', 'MongoDB', 'HTML', 'SCSS', 'JavaScript'],
-        imageUrl: 'https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixid=rb-4.0.3&auto=format&fit=crop&w=800&q=60', // URL image-related
-        liveLink: 'https://utkarssh11.github.io/URL-Shortly/',
-        repoLink: 'https://github.com/Utkarssh11/URL-Shortly',
-    },
-    {
-        title: 'Dyna Prime',
-        description: 'Dynaprime is a sleek and futuristic website that showcases a range of productivity software.',
-        tech: ['HTML', 'CSS', 'JavaScript'],
-        imageUrl: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60', // Sleek, modern UI image
-        liveLink: 'https://utkarsh11-dynaprime.netlify.app/',
-        repoLink: 'https://github.com/Utkarssh11/DynaPrime',
-    },
-   
-    
-    {
-        title: 'Dyna Care',
-        description: 'One stop solution for developers to take care of their health!',
-        tech: ['HTML', 'CSS', 'JavaScript'],
-        imageUrl: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60', // Sleek, modern UI image
-        liveLink: 'https://dynacare-utkarssh11.vercel.app/',
-        repoLink: 'https://github.com/Utkarssh11/Dyna-Care',
-    },
-    {
-        title: 'Sleek UI Library',
-        description: 'Sleek UI is a CSS component library that will help you to build your websites faster.',
-        tech: ['CSS', 'JavaScript'],
-        imageUrl: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60', // Sleek, modern UI image
-        liveLink: 'https://utkarssh11.github.io/sleekUI-library/',
-        repoLink: 'https://github.com/Utkarssh11/sleekUI-library',
-    },
-    {
-         title: 'Employee Management System',
+    imageUrl: 'https://images.unsplash.com/photo-1571943956953-49012f707279?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fG1lZGljYWx8ZW58MHx8fHww&ixlib=rb-1.2.1&q=80&w=1080',
+    liveLink: 'https://e-medico-dqj7.vercel.app/',
+    repoLink: 'https://github.com/Utkarssh11/E-Medico',
+  },
+  {
+    title: 'URL Shortly Website',
+    description: 'The project aims to provide a URL shortening service, allowing users to convert long URLs into shorter ones.',
+    tech: ['React', 'Node.js', 'MongoDB', 'HTML', 'SCSS', 'JavaScript'],
+    imageUrl: 'https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixid=rb-4.0.3&auto=format&fit=crop&w=800&q=60',
+    liveLink: 'https://utkarssh11.github.io/URL-Shortly/',
+    repoLink: 'https://github.com/Utkarssh11/URL-Shortly',
+  },
+  {
+    title: 'Dyna Prime',
+    description: 'Dynaprime is a sleek and futuristic website that showcases a range of productivity software.',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    imageUrl: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60',
+    liveLink: 'https://utkarsh11-dynaprime.netlify.app/',
+    repoLink: 'https://github.com/Utkarssh11/DynaPrime',
+  },
+  {
+    title: 'Dyna Care',
+    description: 'One stop solution for developers to take care of their health!',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    imageUrl: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60',
+    liveLink: 'https://dynacare-utkarssh11.vercel.app/',
+    repoLink: 'https://github.com/Utkarssh11/Dyna-Care',
+  },
+  {
+    title: 'Sleek UI Library',
+    description: 'Sleek UI is a CSS component library that will help you to build your websites faster.',
+    tech: ['CSS', 'JavaScript'],
+    imageUrl: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60',
+    liveLink: 'https://utkarssh11.github.io/sleekUI-library/',
+    repoLink: 'https://github.com/Utkarssh11/sleekUI-library',
+  },
+  {
+    title: 'Employee Management System',
     description: 'A web application for managing employee data, including adding, updating, and deleting employee records. Includes features like search, filtering, and role-based authentication.',
     tech: ['Java', 'Spring Boot', 'MySQL', 'React.js'],
-    imageUrl: 'https://images.unsplash.com/photo-1556740749-887f6717d7e4?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDh8fG9mZmljZXxlbnwwfDB8fHww&ixlib=rb-1.2.1&q=80&w=1080', // Business-focused UI image
-    liveLink: '#',  // Add the live demo link if available
-    repoLink: 'https://github.com/Utkarssh11/Employee-Management-System', // GitHub repository link
-}
-    },
+    imageUrl: 'https://images.unsplash.com/photo-1556740749-887f6717d7e4?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDh8fG9mZmljZXxlbnwwfDB8fHww&ixlib=rb-1.2.1&q=80&w=1080',
+    liveLink: '#',
+    repoLink: 'https://github.com/Utkarssh11/Employee-Management-System',
+  }
 ];
+
 
 const achievementsData = [
     { title: 'Stark Industries Innovator Award', year: '2024', desc: 'Recognized for outstanding innovation in software development projects.', icon: <RocketLaunchIcon /> },
